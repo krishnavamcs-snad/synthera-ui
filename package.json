@@ -1,5 +1,5 @@
 {
-  "name": "my-react-app",
+  "name": "synthera-ui",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -26,42 +26,41 @@
     "date-fns-tz": "^3.2.0",
     "formik": "2.4.6",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
     "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.0.0",
     "react-router-dom": "^6.14.1",
     "react-rte": "0.16.5",
     "react-toastify": "^10.0.6",
     "sonarqube-scanner": "^4.0.1",
+    "typescript": "^4.1.3",
     "yup": "1.6.1",
-    "zustand": "5.0.3",
-    "typescript": "^4.1.3"
+    "zustand": "5.0.3"
   },
   "devDependencies": {
-    "eslint": "^9.22.0",
-    "@swc/cli": "^0.1.65", 
+    "@swc/cli": "^0.1.65",
     "@swc/core": "^1.11.5",
     "@swc/plugin-remove-console": "^7.0.0",
     "@tanstack/eslint-plugin-query": "^5.47.0",
+    "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/user-event": "^14.5.2",
-    "@testing-library/dom":"10.4.0",
+    "@types/node": "^22.7.5",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.2.11",
-    "@types/node": "^22.7.5",
     "@types/react-rte": "0.16.5",
     "@typescript-eslint/eslint-plugin": "^8.26.1",
     "@typescript-eslint/parser": "^8.26.1",
     "@typescript-eslint/typescript-estree": "^8.26.1",
     "@vitejs/plugin-react": "4.3.4",
     "@vitejs/plugin-react-swc": "3.8.0",
+    "@vitest/coverage-istanbul": "3.0.8",
+    "@vitest/ui": "3.0.8",
+    "command-line-args": "6.0.1",
+    "eslint": "^9.22.0",
     "vite": "6.2.2",
     "vite-plugin-checker": "0.9.0",
     "vite-plugin-remove-console": "2.2.0",
-    "vitest": "3.0.8",
-    "@vitest/coverage-istanbul": "3.0.8",
-    "@vitest/ui": "3.0.8",
-    "command-line-args": "6.0.1"
-    
+    "vitest": "3.0.8"
   },
   "eslintConfig": {
     "extends": [
@@ -81,5 +80,10 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "description": "ui application for end users to get inferences on the knowledge base maintained from internal assets",
+  "main": "index.tsx",
+  "repository": "https://github.com/krishnavamcs-snad/synthera-ui.git",
+  "author": "vamsikrishna.solleti@snaddevelopers.com",
+  "license": "MIT"
 }
